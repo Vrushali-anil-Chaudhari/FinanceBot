@@ -1,0 +1,9 @@
+langchain
+langchain_community
+utils
+google-generativeai 
+langchain_chroma 
+langchain_google_genai 
+langchain_openai 
+langchain_groq
+streamlit==1.40.1

@@ -13,14 +13,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 GEMINI_KEY = os.getenv('GEMINI_KEY')
-os.environ["GROQ_API_KEY"] = os.getenv('grok')
+os.environ["GROQ_API_KEY"] = os.getenv('groq')
 
 
 def format_docs(docs):
         return "\n\n".join(doc.page_content for doc in docs)
 
 def load_in_vectord():
-    loader = TextLoader(r"D:\GyanInc\FinanceBot\src\static\finance_adivce.txt")
+    loader = TextLoader(r"/Users/vrushalichaudhari/Documents/Freelance/Gyaninc/FinanceBot/src/static/finance_adivce.txt")
     docs = loader.load()
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
     splits = text_splitter.split_documents(docs)

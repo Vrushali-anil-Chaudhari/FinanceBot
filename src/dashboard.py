@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from utils import load_in_vectord,rag_model
 # Load an icon image for the dashboard
-icon_image = Image.open(r"D:\GyanInc\FinanceBot\src\static\financebot.png")  # Replace with your icon path
+icon_image = Image.open(r"/Users/vrushalichaudhari/Documents/Freelance/Gyaninc/FinanceBot/src/static/financebot.png")  # Replace with your icon path
 
 # Set the title and layout
 st.set_page_config(page_title="FinBot: Finance Advisor Bot", layout="wide", page_icon=icon_image)
@@ -140,7 +140,7 @@ def icon_image_to_base64(image):
 
 def chat_page():
     # Load and prepare the icon image
-    icon_image = Image.open(r"D:\GyanInc\FinanceBot\src\static\1_C_LFPy6TagD1SEN5SwmVRQ-removebg-preview.png")  # Replace with your icon path
+    icon_image = Image.open(r"/Users/vrushalichaudhari/Documents/Freelance/Gyaninc/FinanceBot/src/static/1_C_LFPy6TagD1SEN5SwmVRQ-removebg-preview.png")  # Replace with your icon path
     icon_base64 = icon_image_to_base64(icon_image)
 
     # Center-align the image and title
