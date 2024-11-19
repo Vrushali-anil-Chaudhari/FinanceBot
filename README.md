@@ -12,7 +12,6 @@ FinanceBot combines **natural language processing** and a **financial knowledge 
 - **Knowledge Base**: A rich repository of financial advice stored as vector embeddings.
 - **RAG Methodology**: Ensures the chatbot retrieves the most relevant data and provides it in an engaging conversational format.
 
-Built with **Python 3.10.14**, this project is beginner-friendly and highly functional.
 
 ---
 
@@ -33,7 +32,6 @@ Before you begin, ensure you have the following installed:
 
 - **Python 3.10.14**
 - **Git** for version control
-- Basic knowledge of **Python** and **Streamlit**
 
 ---
 
