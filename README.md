@@ -6,7 +6,7 @@ FinanceBot is a **RAG-based (Retrieval-Augmented Generation)** chatbot designed 
 
 ## Project Overview
 
-FinanceBot combines **natural language processing** and a **financial knowledge base** to assist users in making informed financial decisions. Key features include:
+FinanceBot combines **GENERATIVE AI** to assist users in making informed financial decisions. Key features include:
 
 - **User Input Personalization**: Tailored advice based on the user's input.
 - **Knowledge Base**: A rich repository of financial advice stored as vector embeddings.
@@ -15,6 +15,18 @@ FinanceBot combines **natural language processing** and a **financial knowledge 
 
 ---
 
+### Process Flow
+
+1. **User Information Input**  
+   - Upon starting the application, users will be prompted to fill in their personal details (e.g., financial goals, preferences, or other relevant information).  
+   - This information will be securely stored in the knowledge base, enhancing the chatbot's ability to provide personalized advice.
+
+2. **Transition to Chat Interface**  
+   - Once the details are saved, users will be redirected to the chat interface.  
+   - They can interact with the chatbot, ask financial questions, and receive tailored advice based on their inputs and the preloaded knowledge base.
+
+
+---
 ## Use Cases
 
 - **Personalized Financial Advice**: Receive custom financial recommendations.
@@ -62,6 +74,7 @@ Before you begin, ensure you have the following installed:
 
 6. **Interact with FinanceBot**
     Open the URL displayed in your terminal after running Streamlit.
+    
     Start asking financial questions to receive personalized advice!
 
 --- 
